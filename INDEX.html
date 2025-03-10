@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        body{
+            margin: 0%;
+            font-family: 'Times New Roman', Times, serif;
+             background-color:rgb(182, 122, 151) ;
+             color: white;
+             padding: auto;
+             text-align: center;
+        }
+        nav{
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        section{
+            margin: auto;
+            text-align: center;
+        }
+        #ABOUT {
+            background-color: #cfa4a4;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(108, 95, 95, 0.5);
+        }
+
+        
+        #PROJECTS {
+          background-color: #cebbbb;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(202, 82, 82, 0.5);
+            text-align: left;
+        }
+
+        #PROJECTS h2, #PROJECTS ul {
+            text-align: center;
+        }
+
+        #PROJECTS ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #PROJECTS li {
+           
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+            
+        }
+
+        #PROJECTS li:hover {
+            background-color: #777;
+        }
+
+        #CONTACT {
+           background-color: #cebbbb;
+            padding: 20px;
+            margin: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(194, 60, 60, 0.5);
+        }
+
+        form input, form textarea, form button {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+            font-size: 16px;
+        }
+
+        form input, form textarea {
+            background-color: #444;
+            color: white;
+        }
+
+        form button {
+            background-color: #555;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #777;
+        }
+
+        
+        #Qualification {
+           background-color:rgb(122, 123, 203);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(122, 103, 168, 0.5);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+            
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ad1b1b;
+            text-align: center;
+        }
+
+        th {
+            background-color: #985a66;
+        }
+
+        td {
+            background-color: #df9c9c;
+        }
+
+        tr:hover td {
+            background-color: #622020;
+        }
+        video{
+            width: 50%;
+            height: 50%;
+            border: #444 2px solid;
+            border-radius: 5px;
+
+        }
+
+</style>
+
+</head>
+<body>
+    <H1>MY PAGE</H1>
+    <nav>
+        <a href="#ABOUT">ABOUT</a></li>
+        <a href="#PROJECTS">PROJECTS</a></li>
+        <a href="#CONTACT">CONTACT</a></li>
+        
+    </nav>
+
+    <section id="ABOUT">
+        <h2>ABOUT</h2>
+        <p style="text-align: center;">Bisma Haseeb here! i am student and study in pu and doing my degree in it from ibit <br>as currently i covered c,c++,db and dsa subjects
+             aslo study many different subjects <br>interested to start my career in frontend developers</p>
+    </section>
+    <section id="PROJECTS">
+        <h2>MY PROJECTS</h2>
+        <ul>
+            <li>ms paint</li>
+            <li>car rating</li>
+            <li>calculator</li>
+        </ul>
+        <h2>assignments
+        </h2>
+        <ul>
+            <li>assignment related to DB</li>
+            <li>data assemble</li>
+        </ul>
+        <section id="CONTACT">
+            <h2>CONTACT ME</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your name" required><br>
+                <input type="email" name="email" placeholder="Your email" required><br>
+                <textarea name="message" placeholder="Your message" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    <section id="Qualification">
+        <h2>My Qualification</h2>
+        <table border="1" style="width: 70%; margin-top: 10px;">
+            <tr>
+                <th>institute</th>
+                <th>passing year</th>
+                <th>grades</th>
+            </tr>
+            <tr>
+                <td>Unique School</td>
+                <td>2019 to 2020</td>
+                <td>A+</td>
+            </tr>
+            <TR>
+                <td>kips college</td>
+                <td>2020 to 2022</td>
+                <td>B+</td>
+            </TR>
+                <tr>
+                    <td>pu</td>
+                    <TD>2022 to 2026</TD>
+                    <td>B</td>
+                </tr>
+        </table>
+    </section>
+<video controls
+ src="IFRXE9504.MOV">VIDEO</video>
+</body>
+</html>
